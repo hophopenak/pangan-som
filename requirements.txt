@@ -1,0 +1,12 @@
+pandas
+geopandas
+openpyxl
+streamlit
+folium
+streamlit-folium
+plotly
+difflib
+shapely
+fiona
+pyproj
+rtree
