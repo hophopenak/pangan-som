@@ -35,8 +35,8 @@ st.markdown("<p class='sub-header'>Analisis klasterisasi ketahanan pangan kabupa
 def load_data():
 
     # Load file
-    gdf = gpd.read_file("D:/semester 7/Project Sains Data/Sumatera.shp")
-    df_cluster = pd.read_excel("D:/semester 7/Project Sains Data/hasil_cluster_som.xlsx")
+    gdf = gpd.read_file("Sumatera.shp")
+    df_cluster = pd.read_excel("hasil_cluster_som.xlsx")
 
     # --- CLEANING ---
     def clean_name(x):
@@ -225,4 +225,5 @@ with st.expander("📋 Lihat Data Kabupaten/Kota"):
         ],
         use_container_width=True,
         height=400
+
     )
